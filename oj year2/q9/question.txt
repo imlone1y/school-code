@@ -1,0 +1,79 @@
+資料結構實驗 第九題 Lab of Data Structure Question 9
+Description
+
+請觀察 insert 函數並完成樣板中的 inorder, preorder, postorder 以及 levelorder 四個函數
+
+Observe the function insert and finish four function in the template, inorder, preorder, postorder and levelorder.
+
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+
+using namespace std;
+
+class Node
+{
+public:
+	int level, data;
+	Node *left, *right;
+};
+
+class Tree
+{
+public:
+	Tree()
+	{
+		root = NULL;
+	}
+	int insert(Node *n)
+	{
+		insert(&root, n);
+	}
+	void inorder()
+	{
+	}
+	void preorder()
+	{
+	}
+	void postorder()
+	{
+	}
+	void levelorder()
+	{
+	}
+private:
+	Node *root;
+	void insert(struct Node **r, struct Node *n)
+	{
+		if(*r == NULL)
+			*r = n;
+		else if(n->data > (*r)->data)
+			insert(&((*r)->right), n);
+		else
+			insert(&((*r)->left), n);
+	}
+};
+
+int main()
+{
+	Tree *tree = new Tree();
+	Node *node;
+	int j;
+	srand(time(NULL));
+	for(j = 0;j < 10;j ++)
+	{
+		node = new Node();
+		node->data = rand();
+		node->left = NULL;
+		node->right = NULL;
+		tree->insert(node);
+	}
+	tree->inorder();
+	printf("\n");
+	tree->preorder();
+	printf("\n");
+	tree->postorder();
+	printf("\n");
+	tree->levelorder();
+	printf("\n");
+}
