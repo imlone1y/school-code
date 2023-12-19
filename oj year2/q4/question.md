@@ -1,4 +1,4 @@
-Description
+# Description
 
 請完成函數 enqueue 跟函數 dequeue
 
@@ -11,7 +11,7 @@ Please finish function enqueue and dequeue
 Function enqueue will insert the data from the top of queue and return 1 on success, return -1 if not.
 
 Function dequeue will remove one data from the bottom of queue and return a pointer point the data, return NULL if there are on data.
-
+```cpp
 #include <iostream>
 #include <cstring>
 
@@ -77,8 +77,8 @@ int main()
         }
     }
 }
-
-如果你完成這兩個函數，你可以拿到80 分
+```
+如果你完成這兩個函數，你可以拿到 80 分
 
 如果你的 queue 是環狀的，你可以拿到 100 分
 
