@@ -1,4 +1,4 @@
-Description
+# Description
 
 請完成函數 push 跟函數 pop
 
@@ -12,6 +12,7 @@ Function push will push the data into stack and return 1 if success, return -1 i
 
 Function pop will pop the top data from stack and return a pointer point to the data, return NULL if there is no data.
 
+```cpp
 #include <iostream>
 #include <cstring>
 
@@ -77,7 +78,7 @@ int main()
         }
     }
 }
-
+```
 如果你成功的完成了指定的函數，你可以得到100分
 
 You can get 100 point if finish this two function.
