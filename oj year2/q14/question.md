@@ -1,22 +1,11 @@
-資料結構實驗 第十四題 Lab of Data Structure Question 14
-Description
+# Description
 
 A binary expression tree is a specific kind of a binary tree used to represent expressions.
 
 Binary expression tree - Wikipedia
 
 Please implement the ExpressionTree class in the template.
-
-
-Input
-NONE
-
-
-Output
-NONE
-
-
-
+```cpp
 class ExpressionTree {
 public:
   //constructure an Expression Tree using a string. The string representing an in-order expression contains operator =, -, *, /, parentheses, and number in floationg point.
@@ -30,3 +19,4 @@ public:
   //Evaluate the expression and return the result.
   double evaluate();
 };
+```
