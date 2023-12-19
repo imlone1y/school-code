@@ -1,4 +1,4 @@
-Description
+#Description
 
 請完成函數 allocArray
 
@@ -10,8 +10,9 @@ Please finish the function allocArray
 
 This function will allocate a 2-D array with size m * n, then point the array using pointer p.
 
-#include
-#include
+```c
+#include <stdio.h>
+#include <stdlib.h>
 void allocArray(int ***p, int m, int n)
 {
 }
@@ -27,7 +28,7 @@ int main()
   for(j = 0;j < 5;j ++)
     for(k = 0;k < 10;k ++)
       printf("%p ", &(array[j][k]));
-}
+}```
 
 
 
