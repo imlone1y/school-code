@@ -1,4 +1,4 @@
-Description
+# Description
 
 Any general tree can convert to a sibling tree(Left-child right-sibling binary tree). That means we can express a general tree using a binary tree.
 
@@ -7,16 +7,14 @@ The more detail is here(https://en.wikipedia.org/wiki/Left-child_right-sibling_b
 Please finish the class define in template.
 
 
-Input
-NONE
+## Input
+> NONE
 
 
-Output
-NONE
+## Output
+> NONE
 
-
-
-
+```cpp
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
@@ -602,3 +600,4 @@ int main()
 	BinaryTree<int> *binaryTree = BinaryTree<int>::convertFromGeneralTree(tree);
 	binaryTree->print();
 }
+```
