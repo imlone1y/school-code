@@ -11,27 +11,26 @@ You must use your own data structure and are not allowed to use any build in STL
 
 ## Input
 > In each test case, your tree should start from an empty tree.
-
 > Each line will contain an operation of the tree till the end-of-file.
-
 > There are two types of operations:
-
-1. insert <data>
-
-insert data into your tree
-
-2. delete <data>
-
-delete data from your tree
+>> 1. insert <data>
+>> insert data into your tree
+>> 2. delete <data>
+>> delete data from your tree
 
 
-Output
-The serialized string of the tree.
+## Output
+> The serialized string of the tree.
+> Ending with a "\n" of each line.
 
-Ending with a "\n" of each line.
-
-
-
+## Sample Input 1
+> insert 20
+> insert 40
+> insert 60
+> insert 80
+> insert 50
+> delete 61
+> delete 60
 
 
 template <typename ValueType>
