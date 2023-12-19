@@ -1,5 +1,4 @@
-資料結構實驗 第十五題 Lab of Data Structure Question 15
-Description
+# Description
 
 A binary heap is a heap data structure that takes the form of a binary tree.
 
@@ -12,18 +11,7 @@ A binary heap is defined as a binary tree with two additional constraints:
 Binary heap - Wikipedia
 
 Please implement the MaxHeap class in the template.
-
-
-Input
-NONE
-
-
-Output
-NONE
-
-
-
-
+```cpp
 template<class T>
 class MaxHeap {
 public:
@@ -37,3 +25,4 @@ public:
   int count();
 private:
 };
+```
