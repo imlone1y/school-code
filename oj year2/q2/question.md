@@ -1,4 +1,4 @@
-Description
+# Description
 
 請完成函數 allocArray
 
@@ -9,7 +9,7 @@ Description
 Please finish the function allocArray
 
 This function will allocate a 2-D array with size m * n, then point the array using pointer p.
-
+```cpp
 #include <iostream>
 #include <cstdlib>
 
@@ -36,6 +36,7 @@ int main()
     for(k = 0;k < 10;k ++)
       cout<<array[j][k]<<" ";
 }
+```
 如果你能成功的配置一個二維陣列，你就能得到80分
 
 如果你能配置出連續的空間，你就可以得到100分
