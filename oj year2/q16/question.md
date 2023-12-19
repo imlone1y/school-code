@@ -1,5 +1,4 @@
-資料結構實驗 第十六題 Lab of Data Structure Question 16
-Description
+# Description
 
 Please finish the class "Red_Black_Tree" and main function to fulfill the requirements.
 
@@ -10,12 +9,12 @@ Ref:https://www.cs.usfca.edu/
 You must use your own data structure and are not allowed to use any build in STL library or you will get up to 0 points.
 
 
-Input
-In each test case, your tree should start from an empty tree.
+## Input
+> In each test case, your tree should start from an empty tree.
 
-Each line will contain an operation of the tree till the end-of-file.
+> Each line will contain an operation of the tree till the end-of-file.
 
-There are two types of operations:
+> There are two types of operations:
 
 1. insert <data>
 
