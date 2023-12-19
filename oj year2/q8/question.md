@@ -1,11 +1,10 @@
-資料結構實驗 第八題 Lab of Data Structure Question 8
-Description
+# Description
 
 請完成樣板中的類別以及成員函數。
 
 Please finish the class and member function in template.
 
-
+```cpp
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
@@ -152,3 +151,4 @@ int main()
 	maze->printMaze();
 	maze->getPath()->printPath();
 }
+```
