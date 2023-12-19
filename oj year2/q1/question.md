@@ -28,15 +28,13 @@ int main()
   for(j = 0;j < 5;j ++)
     for(k = 0;k < 10;k ++)
       printf("%p ", &(array[j][k]));
-}```
-
+}
+```
 
 
 如果你能成功的配置一個二維陣列，你就能得到80分
 
 如果你能配置出連續的空間，你就可以得到100分
-
-
 
 You will get 80 point if you can successfully allocate a 2-D array.
 
