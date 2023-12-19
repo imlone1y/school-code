@@ -1,10 +1,10 @@
-Description
+# Description
 
 Please read and understand class Node, ListNode and LinkList, then finish class TreeNode and Tree.
 
 請讀懂類別 Node, ListNode 以及 LinkList，然後完成類別 TreeNode  以及 Tree
 
-
+```cpp
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -476,3 +476,4 @@ int main()
     cout << endl;
     tree->postorder();
 }
+```
