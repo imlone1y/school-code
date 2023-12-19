@@ -1,10 +1,9 @@
-資料結構實驗 第九題 Lab of Data Structure Question 9
-Description
+# Description
 
 請觀察 insert 函數並完成樣板中的 inorder, preorder, postorder 以及 levelorder 四個函數
 
 Observe the function insert and finish four function in the template, inorder, preorder, postorder and levelorder.
-
+```cpp
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
@@ -77,3 +76,4 @@ int main()
 	tree->levelorder();
 	printf("\n");
 }
+```
