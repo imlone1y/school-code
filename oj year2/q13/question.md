@@ -6,14 +6,6 @@ The more detail is here(https://en.wikipedia.org/wiki/Left-child_right-sibling_b
 
 Please finish the class define in template.
 
-
-## Input
-> NONE
-
-
-## Output
-> NONE
-
 ```cpp
 #include <cstdlib>
 #include <iostream>
